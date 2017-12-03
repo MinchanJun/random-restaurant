@@ -1,0 +1,12 @@
+{% extends "randomshow/base.html" %}
+{% load bootstrap3 %}
+
+
+{% block random_restaurant_temp %}
+<div class="col-md-8">
+  <h2>Random12</h2>
+    {% for rest in object_list %}
+      <h3>{{ ran }}</h3>
+    {% endfor %}
+  </div>
+{% endblock %}
